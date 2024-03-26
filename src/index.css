@@ -114,18 +114,18 @@ header p {
 .detail-outer {
   position: fixed;
   z-index: 9999999;
-  height: 100vh;
+  height: 80vh;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
+  pa
 }
 
 .detail-inner {
   background: black;
   margin-left: 10px;
   width: 300px;
-  height: 90%;
   border-radius: 10px;
   padding: 15px;
   display: flex;
@@ -215,7 +215,7 @@ header p {
 }
 
 .loader::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 20px;
   background: transparent;
@@ -226,7 +226,7 @@ header p {
 }
 
 .loader::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 50px;
   height: 50px;
@@ -249,7 +249,7 @@ header p {
 }
 
 .loader span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
